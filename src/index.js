@@ -13,11 +13,11 @@ import { Counter } from './components/Counter';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Counter/>,
   },
   {
-    path: "/counter",
-    element: <Counter/>
+    path: "/app",
+    element: <App/>
   }
 ]);
 
